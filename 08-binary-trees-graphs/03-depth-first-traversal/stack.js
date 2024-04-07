@@ -1,6 +1,6 @@
 class Stack {
-  constructor() {
-    this.maxSize = 100;
+  constructor(size) {
+    this.maxSize = size;
     this.stack = [];
     this.top = -1;
   }
